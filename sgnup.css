@@ -152,6 +152,7 @@ input[type="date"] {
     display: -webkit-inline-flex;
     -webkit-padding-start: 2px;
     color: #333;
+    padding-top: 0;
 }
 
 input[type="date"]::placeholder{
@@ -161,7 +162,10 @@ input[type="date"]::placeholder{
   margin-left: 10px;
   padding: auto;
 }
-
+.date-text{
+  font-family: "Play", sans-serif;
+  font-size: 18px;
+}
 input[type="button"]:hover {
   color: #fff;
   background-color:#1676B3;
