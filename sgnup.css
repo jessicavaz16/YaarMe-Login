@@ -248,6 +248,10 @@ a:hover
     padding-right: 15px;
     padding-top: 70px;
   }
+  
+  .login-more{
+    display: none;
+  }
  
 }
 /*Social*/
