@@ -66,12 +66,10 @@ p {
 .login-more {
   width: calc(100% - 560px);
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
-  position: static;
+  position: relative;
   z-index: 1;
-  min-height: 100vh;
-  overflow:hidden;
 }
 
 .login-more::before {
@@ -93,9 +91,8 @@ p {
   display: block;
   background-color: #f7f7f7;
   padding: 55px 55px 55px 55px;
-  overflow: hidden;
-  overflow-y: scroll;
 }
+
 
 .login-form-title {
   width: 100%;
